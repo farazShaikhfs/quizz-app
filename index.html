@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz App</h1>
+        <div class="question-container">
+            <p id="question">What is the capital of France?</p>
+            <div class="options">
+                <button class="option" onclick="checkAnswer('a')">A. Paris</button>
+                <button class="option" onclick="checkAnswer('b')">B. London</button>
+                <button class="option" onclick="checkAnswer('c')">C. Rome</button>
+                <button class="option" onclick="checkAnswer('d')">D. Berlin</button>
+            </div>
+        </div>
+        <div id="result" class="result"></div>
+        <button id="next" class="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+</html>
